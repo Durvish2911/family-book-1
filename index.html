@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            my family
+            </title>
+        </head>
+        <body style="text-align: center;">
+            MY FAMILY MEMBERS
+            <button type="button" onclick="changeslide()">next</button>
+            <br>
+            <p id="mysef">
+                
+            Myself Durvish
+            </p>
+        <br>
+            <img src="bghjg3e.jpg"id="card">
+            <script>
+                var resons=["DAD","MOM","mathernal GRANDMOTHER","MATERNAL GRANDFATHER","PATERNAL GRANDMOTHER","PATERNAL GRANDFATHER"];
+                var images=["bghjg3e.jpg","dad.jpg","Dada.png","Dadi.png","mom.jpg","thatha.jpg","thathi.jpg"];
+                var array=0;
+                var you=0;
+                
+               function changeslide(){document.getElementById("mysef").innerHTML=resons[array];array++
+            document.getElementById("card").src=images[you];you++;}
+                </script>
+            </body>
+    </html>
